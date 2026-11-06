@@ -1,6 +1,6 @@
 ---
 name: build-godot-stylized-scenes
-description: 规划、制作和验证 Godot 风格化低多边形驾驶场景，包含参考图转美术规则、离线树石和 Blender Geometry Nodes 建筑、真实地表约束的确定性 PCG、地面材质过渡、分块流送、晴雪恢复和移动端预算。用于 fsnet-godot-demo 富士湖畔、村落、森林、山路或同类场景迭代；不把独立样板当已整合世界，不替代日本道路交通语义技能、工程法规认证或真机验收。
+description: 规划、制作和验证 Godot 风格化低多边形驾驶场景，包含参考图转美术规则、离线树石和 Blender Geometry Nodes 建筑、真实地表约束的确定性 PCG、密集草丛与 GPU 风动、地面材质过渡、分块流送、晴雪恢复和移动端预算。用于 fsnet-godot-demo 富士湖畔、村落、森林、山路或同类场景迭代；不把独立样板当已整合世界，不替代日本道路交通语义技能、工程法规认证或真机验收。
 ---
 
 # 制作 Godot 风格化驾驶场景
@@ -12,6 +12,7 @@ description: 规划、制作和验证 Godot 风格化低多边形驾驶场景，
 - 找当前工程、历史阶段和复用入口：读 [项目来源与阶段](references/project-map.md)。
 - 制作树石、建筑或选择 LOD：读 [离线资产制作](references/offline-assets.md)。
 - 散布、接地、场景集成、天气：读 [PCG 与集成](references/pcg-integration.md)。
+- 制作密集草丛、低矮植被或风动：读 [密集植被与 GPU 风动](references/dense-vegetation.md)。
 - 开始运行测试或准备交付：读 [验收与性能](references/validation.md)。
 
 ## 1. 冻结本次范围
@@ -45,6 +46,7 @@ description: 规划、制作和验证 Godot 风格化低多边形驾驶场景，
 
 - 离线生成/烘焙几何与数值场，游戏加载静态资源；不要加入每树生长、逐帧散布或逐帧建网格。
 - 根据空间 cell、材质、种类和 LOD 组织 MultiMesh，核验真实 AABB、实例变换和保存后的读回。过大的合批会破坏剔除。
+- 后续密集草丛与适合面片表达的低矮植被，默认沿用已选的五片交叉草丛、固定根部的 GPU 顶点风动和分块 MultiMesh 方法；按 [密集植被与 GPU 风动](references/dense-vegetation.md) 接入真实地表、遮罩、LOD、雪与远景。不要把每丛动画放到 CPU，也不要将此方法强套到树木或需要实体体积的灌木。
 - 一个世界管理器和明确 chunk owner。按现有合同裁切需要分属各块的表面；不能把相同道路碰撞复制到相邻 owner。
 - 装饰是否阻车必须显式决定。旧山路树石无独立碰撞与新森林树干/石块有碰撞是不同方案，不能一概套用。
 - 建筑由简单实体碰撞与门阶/通路合同接入，不能把屋顶误当道路支撑。资产默认禁用的碰撞不自动启用。

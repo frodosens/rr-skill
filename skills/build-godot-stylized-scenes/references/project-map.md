@@ -21,6 +21,7 @@
 | `forest_pcg009/tools/place_forest009.py`、`safety009.py` | 权威保存三角、种子、完整足迹、净空与新森林 owner | 009 严格驾驶曾 FAIL，不能写成全绿 |
 | `forest_ground011/tools/build_ground_field011.py` | 真实道路距离场与平滑光照法线，只改外观 | 没有推平真实地形 |
 | `forest_corridor012` 至 `ridge_corridor017` | 继承冻结候选，局部扩展/合同/回归/回退 | 候选不自动视为已合入 main 或全图完成 |
+| `grass_wind027/project/scripts/grass_field.gd`、`project/shaders/grass.gdshader`、`INTEGRATION_NOTES.md` | 五片交叉草丛、固定根部 GPU 风动、分块 MultiMesh、LOD/晴雪与远景衔接；详见 [密集植被](dense-vegetation.md) | 独立 96×96 m 样板；新增 32–52 draw calls 仅为云端软件 GL 计数，非手机或正式主世界验收 |
 
 ## 新森林与旧山路不要混为一套
 
