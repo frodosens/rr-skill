@@ -1,0 +1,4 @@
+interface:
+  display_name: "制作风格化驾驶场景"
+  short_description: "将参考图、离线资产、PCG 布局和移动性能约束落到可验证的 Godot 驾驶场景"
+  default_prompt: "请使用 $build-godot-stylized-scenes 规划、制作并验证风格化驾驶场景。"

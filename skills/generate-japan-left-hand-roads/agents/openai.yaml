@@ -1,0 +1,13 @@
+interface:
+  display_name: 日本靠左道路生成
+  short_description: 生成日本左行道路、交通标线、路面文字、护栏与雪天表现
+  default_prompt: 使用 $generate-japan-left-hand-roads，为 Godot 场景规划并验证日本靠左道路、标线、路面文字和雪天表现。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

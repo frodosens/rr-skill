@@ -1,0 +1,4 @@
+interface:
+  display_name: "制作低多边形汽车模型"
+  short_description: "在 Godot 中制作可驾驶与交通车辆的低多边形造型并核对材质、轮组和性能"
+  default_prompt: "请使用 $build-godot-low-poly-vehicles 制作并验证低多边形汽车模型。"
