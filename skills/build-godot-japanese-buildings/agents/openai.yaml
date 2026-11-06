@@ -1,0 +1,4 @@
+interface:
+  display_name: "制作日式 Godot 建筑"
+  short_description: "创建可复用日式住宅、温泉旅馆与湖畔宅地，并检查导入、入口和性能边界"
+  default_prompt: "使用 $build-godot-japanese-buildings 制作日式建筑，先核对源模型与宅地合同，再验证 Godot 集成。"
