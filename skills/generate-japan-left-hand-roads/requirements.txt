@@ -1,0 +1,3 @@
+# check_conventions.py uses only the Python standard library.
+# Marking generator/auditor require Shapely 2, validated with this version.
+shapely==2.1.2

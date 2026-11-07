@@ -1,0 +1,24 @@
+{
+  "bridges": [],
+  "generation_id": "synthetic-skill-fixture-v1",
+  "roads": [
+    {
+      "bidirectional": true,
+      "id": "fixture_road",
+      "points": [
+        [
+          8,
+          0,
+          64
+        ],
+        [
+          376,
+          0,
+          64
+        ]
+      ],
+      "surface": "asphalt",
+      "width": 6.5
+    }
+  ]
+}

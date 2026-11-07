@@ -2,6 +2,8 @@
 
 ## 轻量先验
 
+安装后先按 [portable-tools.md](portable-tools.md) 运行自包含生成/审计和原生样板。它们的合成测试不替代下列正式世界证据。
+
 运行 `python3 scripts/check_conventions.py --self-test`。只检查左行、反向排版、虚线相位和示例规则表，不读取/改动世界。通过不代表道路已生成或Godot已通过。
 
 用 `python3 scripts/check_conventions.py --example` 查看辅助规划格式，再用 `--rules rules.json` 检查。它不替代现有 `marking_rules016.json`，不能直接喂006生成器。

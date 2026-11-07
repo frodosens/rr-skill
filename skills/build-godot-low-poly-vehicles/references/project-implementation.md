@@ -2,9 +2,9 @@
 
 ## 来源边界
 
-2026-11-06 从 fsnet-godot-demo 工作区核对。主工程目录名为 `apex-rush-godot`；其 Git HEAD 为 `7870e454be4b7e15ea2b8f598f0088e72050f41a`，同时存在未提交变更。因此下面是源码/文档核对过的方法，不是“所有文件已在该提交或远端 main”的声明。使用时先重新定位当前工程。
+原实现说明来自本地 `apex-rush-godot` 工作区；2026-11-07 核实其 origin 为 `https://github.com/frodosens/RallyDelivery.git`，即 `frodosens/RallyDelivery`，不能因任务中的 fsnet-godot-demo 项目背景而将两者认作同一 checkout。其 Git HEAD 为 `7870e454be4b7e15ea2b8f598f0088e72050f41a`，同时存在未提交变更。因此下面是源码/文档核对过的方法，不是“所有文件已在该提交或远端 main”的声明。使用时先重新定位当前工程。
 
-这些是项目相对路径，不是本 skill 附带的生成器。没有项目时，可按方法重建同类模型，但不能运行不存在的命令或声称已使用原项目资产。
+下面表格记录原项目入口。本 skill 现附带蓝车与五种 NPC 的独立可运行子集，见 [独立资源与依赖](bundle.md)。红车完整构建、驾驶/UI/物理接入仍需原项目，不能把独立模型测试说成完整游戏验证。
 
 ## 源码入口
 

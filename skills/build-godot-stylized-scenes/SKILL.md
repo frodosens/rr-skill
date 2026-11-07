@@ -9,6 +9,8 @@ description: 规划、制作和验证 Godot 风格化低多边形驾驶场景，
 
 ## 先读什么
 
+- 独立安装后运行生成器、树/草样板与最小测试：读 [自包含工具与运行](references/portable-tools.md)。
+
 - 找当前工程、历史阶段和复用入口：读 [项目来源与阶段](references/project-map.md)。
 - 制作树石、建筑或选择 LOD：读 [离线资产制作](references/offline-assets.md)。
 - 散布、接地、场景集成、天气：读 [PCG 与集成](references/pcg-integration.md)。

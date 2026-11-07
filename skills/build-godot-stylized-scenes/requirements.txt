@@ -1,0 +1,7 @@
+# Tree GLB/card scripts require only Python 3.10+ standard library.
+# Fixed-scope forest/ground/safety tools were validated with these Python 3.12 versions.
+numpy==2.3.5
+shapely==2.1.2
+scipy==1.17.0
+Pillow==13.0.0
+fonttools==4.61.1

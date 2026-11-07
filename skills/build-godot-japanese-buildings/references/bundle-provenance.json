@@ -1,0 +1,152 @@
+{
+  "license": "No LICENSE/COPYING found in the three source packages. Original-authoring comments are provenance, not an open-source license grant. Preserve existing notices; confirm rights before redistribution outside the authorized project.",
+  "files": [
+    {
+      "source": "fuji_geometry_nodes_assets_v2/source/build_node_assets.py",
+      "bundled": "scripts/samples/fuji_geometry_nodes_assets_v2/source/build_node_assets.py",
+      "sha256": "f4e226224cfe3cc4a79f26e406a35351f34bf59b6a691e0f7c3cf02714b0356d",
+      "bundled_sha256": "f4e226224cfe3cc4a79f26e406a35351f34bf59b6a691e0f7c3cf02714b0356d"
+    },
+    {
+      "source": "fuji_geometry_nodes_assets_v2/source/render_assets.py",
+      "bundled": "scripts/samples/fuji_geometry_nodes_assets_v2/source/render_assets.py",
+      "sha256": "347f2d92907a2e0261088c931b7f26d8ee5973fcb6674c57d83dfbe38aa47cff",
+      "bundled_sha256": "347f2d92907a2e0261088c931b7f26d8ee5973fcb6674c57d83dfbe38aa47cff"
+    },
+    {
+      "source": "fuji_geometry_nodes_assets_v2/source/validate_glb.py",
+      "bundled": "scripts/samples/fuji_geometry_nodes_assets_v2/source/validate_glb.py",
+      "sha256": "7d838216d6268b5fa5b03ae7414cd17dea3fad90ca6aeb050be1091fbd35e62f",
+      "bundled_sha256": "7d838216d6268b5fa5b03ae7414cd17dea3fad90ca6aeb050be1091fbd35e62f"
+    },
+    {
+      "source": "fuji_geometry_nodes_assets_v2/source/run_checks.sh",
+      "bundled": "scripts/samples/fuji_geometry_nodes_assets_v2/source/run_checks.sh",
+      "sha256": "8875b3db3a9035d34ba3f62d3dfe1a0638997b2c4ad5c0f45449cbeacbc89adf",
+      "bundled_sha256": "696c9387355f68b0611193687028c3655ed79967fe26b65809cc5d22f646cd0a",
+      "adaptation": "Use GODOT/PYTHON executable overrides and python3 default for portable checks."
+    },
+    {
+      "source": "fuji_geometry_nodes_assets_v2/project/project.godot",
+      "bundled": "assets/templates/fuji_geometry_nodes_assets_v2/project/project.godot",
+      "sha256": "d870467c0459a180fa9003105869139224e7e5f1fd9ba2512b10549d21726fe1",
+      "bundled_sha256": "d870467c0459a180fa9003105869139224e7e5f1fd9ba2512b10549d21726fe1"
+    },
+    {
+      "source": "fuji_geometry_nodes_assets_v2/project/tools/build_scenes.gd",
+      "bundled": "assets/templates/fuji_geometry_nodes_assets_v2/project/tools/build_scenes.gd",
+      "sha256": "e7ab27da5e60df530a9aa8a440dec6722576ca2bc504086a5556d2c1febf6ddb",
+      "bundled_sha256": "e7ab27da5e60df530a9aa8a440dec6722576ca2bc504086a5556d2c1febf6ddb"
+    },
+    {
+      "source": "fuji_geometry_nodes_assets_v2/project/tools/test_assets.gd",
+      "bundled": "assets/templates/fuji_geometry_nodes_assets_v2/project/tools/test_assets.gd",
+      "sha256": "ee295df8292623bf6710c3039da75ad5c28030182024c63d19482fc4d58a3cbb",
+      "bundled_sha256": "ee295df8292623bf6710c3039da75ad5c28030182024c63d19482fc4d58a3cbb"
+    },
+    {
+      "source": "fuji_geometry_nodes_assets_v2/project/assets/fuji_destinations/materials/destination_palette.gdshader",
+      "bundled": "assets/templates/fuji_geometry_nodes_assets_v2/project/assets/fuji_destinations/materials/destination_palette.gdshader",
+      "sha256": "be50c632cfb9a358b41aa51cec0f80ce193697afe81ccdcce3c99b26a24ad364",
+      "bundled_sha256": "be50c632cfb9a358b41aa51cec0f80ce193697afe81ccdcce3c99b26a24ad364"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/source/build_hotel.py",
+      "bundled": "scripts/samples/fuji_onsen_hotel_massing_v3/source/build_hotel.py",
+      "sha256": "14a2e5478b2b0f0ee750383dc7993811908e52972df20d1a0c3fae0fff39b615",
+      "bundled_sha256": "14a2e5478b2b0f0ee750383dc7993811908e52972df20d1a0c3fae0fff39b615"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/source/check_export_bounds.py",
+      "bundled": "scripts/samples/fuji_onsen_hotel_massing_v3/source/check_export_bounds.py",
+      "sha256": "eda1e7dc8e5578e69af6414f307e703df97b044ee903cfd92979a457e981afbc",
+      "bundled_sha256": "eda1e7dc8e5578e69af6414f307e703df97b044ee903cfd92979a457e981afbc"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/source/check_geometry_channels.py",
+      "bundled": "scripts/samples/fuji_onsen_hotel_massing_v3/source/check_geometry_channels.py",
+      "sha256": "26d8fca4f8bd88c4de94bf4493fb77df354ec3da78d70be01caffd1b6608a885",
+      "bundled_sha256": "26d8fca4f8bd88c4de94bf4493fb77df354ec3da78d70be01caffd1b6608a885"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/source/audit_prepared_contract.py",
+      "bundled": "scripts/samples/fuji_onsen_hotel_massing_v3/source/audit_prepared_contract.py",
+      "sha256": "60c348d69f943e0934fb30d8f731b9267bf5decafd34e28d837bcb531e413ac5",
+      "bundled_sha256": "60c348d69f943e0934fb30d8f731b9267bf5decafd34e28d837bcb531e413ac5"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/source/render_site_massing.py",
+      "bundled": "scripts/samples/fuji_onsen_hotel_massing_v3/source/render_site_massing.py",
+      "sha256": "9fc9658a97d60daed881f38e873499f467c2c263b2e326b15610f1fe527c0dba",
+      "bundled_sha256": "9fc9658a97d60daed881f38e873499f467c2c263b2e326b15610f1fe527c0dba"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/source/validate_glb.py",
+      "bundled": "scripts/samples/fuji_onsen_hotel_massing_v3/source/validate_glb.py",
+      "sha256": "3906854dc1c54c4709e88441a8adfcebe8828fab6c188b75173849e4ec36bf01",
+      "bundled_sha256": "3906854dc1c54c4709e88441a8adfcebe8828fab6c188b75173849e4ec36bf01"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/source/run_checks.sh",
+      "bundled": "scripts/samples/fuji_onsen_hotel_massing_v3/source/run_checks.sh",
+      "sha256": "b6cfd88df7d99f199c49a30e37b10a9ce01d8981e053e704ae48705a69db7cfb",
+      "bundled_sha256": "a506eccce106589eee6e0b9ad193ad129dffd40d348d3a734f6d6da968aa132c",
+      "adaptation": "Use GODOT/PYTHON executable overrides and python3 default for portable checks."
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/source/parking_design.json",
+      "bundled": "scripts/samples/fuji_onsen_hotel_massing_v3/source/parking_design.json",
+      "sha256": "c3ac28fae7bf299ef6bf6d7b334cf552b643457cea29cb147e8d4ad5eb24f789",
+      "bundled_sha256": "c3ac28fae7bf299ef6bf6d7b334cf552b643457cea29cb147e8d4ad5eb24f789"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/project/project.godot",
+      "bundled": "assets/templates/fuji_onsen_hotel_massing_v3/project/project.godot",
+      "sha256": "57e314908739aa52550ebbc4aa2e0e068f14fb26963993e6cd7155338aa26297",
+      "bundled_sha256": "57e314908739aa52550ebbc4aa2e0e068f14fb26963993e6cd7155338aa26297"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/project/tools/build_scenes.gd",
+      "bundled": "assets/templates/fuji_onsen_hotel_massing_v3/project/tools/build_scenes.gd",
+      "sha256": "876fe1628b43d48c0ae6b79c7d00e392a1061552dbd66d1f4e5a0ed5d7fe4f17",
+      "bundled_sha256": "876fe1628b43d48c0ae6b79c7d00e392a1061552dbd66d1f4e5a0ed5d7fe4f17"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/project/tools/test_assets.gd",
+      "bundled": "assets/templates/fuji_onsen_hotel_massing_v3/project/tools/test_assets.gd",
+      "sha256": "227ffbbf63f5b71850f1f4d4381c6cc15e17fbccc71221842ab7b4e2addd633d",
+      "bundled_sha256": "227ffbbf63f5b71850f1f4d4381c6cc15e17fbccc71221842ab7b4e2addd633d"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/project/assets/fuji_destinations/materials/destination_palette.gdshader",
+      "bundled": "assets/templates/fuji_onsen_hotel_massing_v3/project/assets/fuji_destinations/materials/destination_palette.gdshader",
+      "sha256": "be50c632cfb9a358b41aa51cec0f80ce193697afe81ccdcce3c99b26a24ad364",
+      "bundled_sha256": "be50c632cfb9a358b41aa51cec0f80ce193697afe81ccdcce3c99b26a24ad364"
+    },
+    {
+      "source": "fuji_destination_assets_v1/source/build_assets.py",
+      "bundled": "scripts/samples/fuji_destination_assets_v1/source/build_assets.py",
+      "sha256": "34f62666e93d2650a45ce721f4166744f6b7c3ee8324441a05e11ff8a0cc9a79",
+      "bundled_sha256": "34f62666e93d2650a45ce721f4166744f6b7c3ee8324441a05e11ff8a0cc9a79"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/evidence/vehicle_reference_dimensions.json",
+      "bundled": "assets/fixtures/vehicle_reference_dimensions.json",
+      "sha256": "03dab830b76f798711646f250eaaf9f105e34f7b2d298abd68470150f9ebd644",
+      "bundled_sha256": "03dab830b76f798711646f250eaaf9f105e34f7b2d298abd68470150f9ebd644"
+    },
+    {
+      "source": "fuji_onsen_hotel_massing_v3/models/current_blue_rally_reference.glb",
+      "bundled": "assets/fixtures/current_blue_rally_reference.glb",
+      "sha256": "e579a0fb41bd248873901ead3bf2dcb7f444b8dd018a6ab86b7819c96de2fdde",
+      "bundled_sha256": "e579a0fb41bd248873901ead3bf2dcb7f444b8dd018a6ab86b7819c96de2fdde"
+    }
+  ],
+  "new_files": [
+    "scripts/run_sample.py",
+    "scripts/tests/test_bundle.py",
+    "references/bundled-runtime.md",
+    "references/validation-results.json"
+  ],
+  "reference_scope": "Historical vehicle GLB/dimensions for display and static bay example only, not current world physics."
+}

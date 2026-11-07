@@ -2,7 +2,7 @@
 
 ## 使用边界
 
-2026-11-06 核对的工作区包含多个并行候选。以下目录相对共同工作根目录 `WORK_ROOT`，不是本 skill 自带的资源。重用时搜索并核对当前目录与源 hash，不依赖某台机器的绝对路径。`apex-rush-godot` 的 HEAD 为 `7870e454be4b7e15ea2b8f598f0088e72050f41a`，但工作区有未提交变化，不能把本表当远端 main 的状态。
+2026-11-06 核对的工作区包含多个并行候选。以下目录是相对历史共同工作根目录 `WORK_ROOT` 的来源线索，不是安装依赖。已打包的生成器和草样板及运行入口见 [portable-tools.md](portable-tools.md)，完整世界/旧证据未打包。重用时搜索并核对当前目录与源 hash，不依赖某台机器的绝对路径。本轮 git 实查 `apex-rush-godot` 的 origin 为 `https://github.com/frodosens/RallyDelivery.git`，不要从本技能的目标项目名推断来源仓库。其 HEAD 为 `7870e454be4b7e15ea2b8f598f0088e72050f41a`，但工作区有未提交变化，不能把本表当远端 main 的状态。
 
 ## 入口与适用范围
 

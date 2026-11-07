@@ -1,0 +1,67 @@
+{
+  "repository": "frodosens/RallyDelivery",
+  "source_head": "7870e454be4b7e15ea2b8f598f0088e72050f41a",
+  "files": [
+    {
+      "source_path": "scripts/car_visual_style.gd",
+      "bundled_path": "assets/vehicle-fixture/scripts/car_visual_style.gd",
+      "sha256": "784615e705d070e600972af1a909e159a78c88874982ffc9790c1bcda2de1d68",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "scripts/player_vehicle_visual.gd",
+      "bundled_path": "assets/vehicle-fixture/scripts/player_vehicle_visual.gd",
+      "sha256": "5db48cab5d3bfde6b218902db6cb3678d2b2851b086b16ba6c87499977617b34",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "scripts/traffic_vehicle_visual.gd",
+      "bundled_path": "assets/vehicle-fixture/scripts/traffic_vehicle_visual.gd",
+      "sha256": "17f375dfaf2e08ba8766dbdd9bfca12938fbd6f0f9c176869ddbb272316fcfdd",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "tests/test_traffic_visuals.gd",
+      "bundled_path": "assets/vehicle-fixture/tests/test_traffic_visuals.gd",
+      "sha256": "132c86291c95d23832601edb3424be2fce2a3dc99c1e6a459623e0613f553913",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "tools/capture_traffic_models.gd",
+      "bundled_path": "assets/vehicle-fixture/tools/capture_traffic_models.gd",
+      "sha256": "879aaaa76dfc759336b7fc7d76a4cb3822da74cc1a76fe05ffcf56d71179b600",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "scenes/traffic/taxi.tscn",
+      "bundled_path": "assets/vehicle-fixture/scenes/traffic/taxi.tscn",
+      "sha256": "282639977e5e20a345461d96905d63eae85532c019331bb1095b27367e71de19",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "scenes/traffic/truck.tscn",
+      "bundled_path": "assets/vehicle-fixture/scenes/traffic/truck.tscn",
+      "sha256": "443f87fc4afd6c1d0f91db800ceac03f63d76ad49bb4684c3fcd4bc730245f1f",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "scenes/traffic/sedan_a.tscn",
+      "bundled_path": "assets/vehicle-fixture/scenes/traffic/sedan_a.tscn",
+      "sha256": "54d2998b7e0dacf1fde8712ab7ecfe0dc9eee6df4604836b074d1a0cff9ec90d",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "scenes/traffic/sedan_b.tscn",
+      "bundled_path": "assets/vehicle-fixture/scenes/traffic/sedan_b.tscn",
+      "sha256": "cf92f305809956bce4edf319b8acd299112a9fa8bff6b4912023546089327a3e",
+      "source_git_status": "clean"
+    },
+    {
+      "source_path": "scenes/traffic/hatchback.tscn",
+      "bundled_path": "assets/vehicle-fixture/scenes/traffic/hatchback.tscn",
+      "sha256": "88f52eb6c0711407ecc8579fddae469a23e1d7e9dbcc6f8604ddd0d5a97900d0",
+      "source_git_status": "clean"
+    }
+  ],
+  "source_origin": "https://github.com/frodosens/RallyDelivery.git"
+}

@@ -44,7 +44,7 @@
 
 ## 6. 复用来源
 
-相对共同工作根目录查找 `grass_wind027/`，先核对当前文件与证据 hash。它不随本技能打包，也不是已合入主世界的实现。
+小型完整源码样板已放入本技能 `assets/grass_wind027/project/`，通过 [portable-tools.md](portable-tools.md) 复制到新临时目录运行。下列其他证据/说明文件仍是历史 `grass_wind027/` 来源，并未随包带入；不需要它们即可运行源码，但不能把历史计数当本轮实测。样板不是已合入主世界的实现。
 
 - `project/shaders/grass.gdshader`：高度平方风动、alpha cutout、距离淡出与雪天。
 - `project/scripts/grass_field.gd`：交叉分段网格、轮廓 mask、实例数据和块级 LOD。`INSTANCE_CUSTOM.r/g/b/a` 分别为相位、色差、纵向尺度、冬季稳定随机数；改约定时同步修改 shader。

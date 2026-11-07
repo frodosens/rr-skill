@@ -1,0 +1,42 @@
+{
+  "bridges": [],
+  "generation_id": "synthetic-skill-fixture-v1",
+  "roads": [
+    {
+      "bidirectional": true,
+      "id": "paddy_lane",
+      "points": [
+        [
+          420,
+          0,
+          -1380
+        ],
+        [
+          420,
+          0,
+          -1050
+        ]
+      ],
+      "surface": "asphalt",
+      "width": 6.5
+    },
+    {
+      "bidirectional": true,
+      "id": "forest_return",
+      "points": [
+        [
+          580,
+          0,
+          -1380
+        ],
+        [
+          580,
+          0,
+          -1050
+        ]
+      ],
+      "surface": "asphalt",
+      "width": 6.5
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "center": {
+    "dash_m": 3.0,
+    "enabled": true,
+    "gap_m": 5.0,
+    "minimum_road_width_m": 6.0,
+    "phase_m": 0.0,
+    "width_m": 0.15
+  },
+  "edge": {
+    "color_linear": [
+      0.7,
+      0.72,
+      0.75,
+      1.0
+    ],
+    "enabled": true,
+    "minimum_road_width_m": 4.0,
+    "paint_center_inset_m": 0.3,
+    "width_m": 0.15
+  },
+  "generation": "synthetic-markings016-fixture",
+  "geometry": {
+    "area_epsilon_m2": 1e-09,
+    "junction_clearance_m": 0.75,
+    "maximum_unsupported_area_m2": 0.003,
+    "minimum_up_normal": 0.9,
+    "vertical_lift_m": 0.008
+  },
+  "layout_sha256": "0e3274896a50986bde446182410123c35d2a0453a257a5391d91037d4619a376",
+  "protected_owner_ids": [
+    "2:0"
+  ],
+  "routes": [
+    {
+      "end_m": 364.0,
+      "road_id": "fixture_road",
+      "start_m": 4.0,
+      "two_way_left_traffic_design": true
+    }
+  ],
+  "schema_version": 1,
+  "source_generation": "synthetic-skill-fixture-v1",
+  "triangle_sha256": "c5c1a5b0192863e577359a80c7c5b9d7eebe7da48db90db77f75503434b4565d"
+}

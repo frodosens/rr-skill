@@ -1,0 +1,95 @@
+{
+  "spaces": 14,
+  "space_size": [
+    2.8,
+    5.5
+  ],
+  "two_row_aisle_width": 6.5,
+  "status": "layout dimensions only; swept paths pending",
+  "bay_centers_x": [
+    -9.8,
+    -7,
+    -4.2,
+    -1.4,
+    1.4,
+    4.2,
+    7,
+    9.8
+  ],
+  "stall_rows_z": [
+    [
+      30,
+      35.5
+    ],
+    [
+      42,
+      47.5
+    ]
+  ],
+  "preview_parked_cars_x_z_yaw": [
+    [
+      -9.8,
+      32.8,
+      3.141592653589793
+    ],
+    [
+      -4.2,
+      32.8,
+      3.141592653589793
+    ],
+    [
+      7,
+      32.8,
+      3.141592653589793
+    ],
+    [
+      -7,
+      44.8,
+      0
+    ],
+    [
+      4.2,
+      44.8,
+      0
+    ]
+  ],
+  "capacity_change": "Previously 16; remove the two central front-row bays for a pedestrian corridor and side buffers. Design only.",
+  "active_bay_centers_by_row": [
+    [
+      -9.8,
+      -7,
+      -4.2,
+      4.2,
+      7,
+      9.8
+    ],
+    [
+      -9.8,
+      -7,
+      -4.2,
+      -1.4,
+      1.4,
+      4.2,
+      7,
+      9.8
+    ]
+  ],
+  "pedestrian_corridor_rect_xz": [
+    -1.4,
+    1.4,
+    26,
+    35.5
+  ],
+  "front_row_no_parking_rect_xz": [
+    -2.8,
+    2.8,
+    30,
+    35.5
+  ],
+  "pedestrian_scope": "Connects street crossing through front row to central aisle; further rear-row accessible routing, aisle conflicts and road crossing visibility require review.",
+  "forecourt_scale_reference_x_z_yaw": [
+    8,
+    17.4,
+    1.5707963267948966
+  ]
+}

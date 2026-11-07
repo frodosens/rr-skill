@@ -10,15 +10,7 @@
 
 ### 可重现检查入口
 
-从包含该工具和资产的当前工程运行：
-
-```sh
-python3 tools/generate_branching_trees.py --check
-python3 tools/validate_tree_glbs.py
-python3 tools/bake_bare_forest_card.py --check
-```
-
-`--check` 对照当前输出与 manifest，不写新资产。需要重建则先核对输出目录和范围。不要假定所有生成器都有 `--check`。
+本包直接提供 `scripts/generate_branching_trees.py`、`validate_tree_glbs.py`、`bake_bare_forest_card.py`。从空输出目录生成，再使用显式 `--output` / `--input` 参数检查，完整命令和依赖见 [portable-tools.md](portable-tools.md)。`--check` 只读已生成结果；打包适配后的生成器hash不同，不能沿用旧项目manifest。
 
 ## Geometry Nodes 建筑
 

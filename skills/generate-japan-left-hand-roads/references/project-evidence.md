@@ -1,8 +1,10 @@
 # fsnet-godot-demo 实现地图
 
-核查日期：2026-11-06。完整项目路径相对本次工作区根，后续缩写的 scripts/assets/docs 路径相对该段所列项目根；它们不是稳定安装路径。先定位对应工程；缺文件就报告缺失。skill不携带Godot、游戏源码或大型资产。
+核查日期：2026-11-06。完整项目路径相对本次工作区根，后续缩写的 scripts/assets/docs 路径相对该段所列项目根；它们不是稳定安装路径。先定位对应工程；缺文件就报告缺失。skill不携带Godot、完整游戏或大型资产。少量生成器源码、原生样板和合成输入已自包含，见 [portable-tools.md](portable-tools.md)；以下未打包的路径仅作历史来源线索。
 
 ## 旧山路环路
+
+来源身份：本轮 git 实查历史 `apex-rush-godot` 的 origin 为 `https://github.com/frodosens/RallyDelivery.git`，HEAD为 `7870e454be4b7e15ea2b8f598f0088e72050f41a`。后述候选目录只按历史工作区及逐文件hash识别，不推断属于哪个远端仓库。
 
 来源：`apex-rush-godot/scripts/road_rules.gd`、`scripts/road_markings.gd`、`docs/ROAD_MARKINGS.md`、`assets/road_markings/road_paint.gdshader`。统一世界目录仍有旧文件，但存在不代表连接新路网。
 

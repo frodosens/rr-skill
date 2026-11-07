@@ -1,0 +1,25 @@
+{
+  "maximum": [
+    1.08500003814697,
+    1.57606768608093,
+    2.11500000953674
+  ],
+  "minimum": [
+    -1.08500003814697,
+    0.00999999046325684,
+    -2.21550011634827
+  ],
+  "physics_width_length": [
+    1.72,
+    4.18
+  ],
+  "scope": "Actual generated current visual mesh, measured all transformed vertices; physics values from car.gd capsule",
+  "source": "apex-rush-godot/scripts/player_vehicle_visual.gd and car_visual_style.gd",
+  "vehicle": "current_blue_rally_visual",
+  "width_height_length": [
+    2.17000007629395,
+    1.56606769561768,
+    4.33050012588501
+  ],
+  "reference_provenance": "Inherited unchanged blue vehicle reference from fuji_onsen_hotel_massing_v2; not a v3 hotel export receipt"
+}

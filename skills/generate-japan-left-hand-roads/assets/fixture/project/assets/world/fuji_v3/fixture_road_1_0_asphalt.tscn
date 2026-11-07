@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3]
+
+[sub_resource type="PlaneMesh" id="Plane"]
+size = Vector2(128, 6.5)
+
+[sub_resource type="BoxShape3D" id="Support"]
+size = Vector3(128, 0.1, 6.5)
+
+[node name="SyntheticSupport" type="MeshInstance3D"]
+position = Vector3(192.0, 0, 64.0)
+mesh = SubResource("Plane")
+
+[node name="Body" type="StaticBody3D" parent="."]
+
+[node name="Shape" type="CollisionShape3D" parent="Body"]
+position = Vector3(0, -0.05, 0)
+shape = SubResource("Support")

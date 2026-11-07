@@ -1,0 +1,30 @@
+{
+  "generation_id": "synthetic-skill-fixture-v1",
+  "resources": [
+    {
+      "chunk_id": "0:0",
+      "path": "res://assets/world/fuji_v3/fixture_road_0_0_asphalt.tscn",
+      "sha256": "c1fbd9759fb031becc6bdf21f25757469f79b054c6fb23be3f524002502b1129"
+    },
+    {
+      "chunk_id": "1:0",
+      "path": "res://assets/world/fuji_v3/fixture_road_1_0_asphalt.tscn",
+      "sha256": "52d135843fc914c380f48598d5c895b612efabf5c79798502d070e626098d7fb"
+    },
+    {
+      "chunk_id": "2:0",
+      "path": "res://assets/world/fuji_v3/fixture_road_2_0_asphalt.tscn",
+      "sha256": "4e588008df74a8531c213e9f0cecc614e5ca680375059e23c4547b9fce7efab3"
+    },
+    {
+      "chunk_id": "0:0",
+      "path": "res://assets/world/fuji_v3/junction_fixture_0_0_asphalt.tscn",
+      "sha256": "a5a16af3ab75cd5bac96e5162fa0b7b0fd9a5307a6e93e0003f104fce82e0b49"
+    }
+  ],
+  "triangle_export": {
+    "sha256": "c5c1a5b0192863e577359a80c7c5b9d7eebe7da48db90db77f75503434b4565d"
+  },
+  "validation_status": "SYNTHETIC_FIXTURE_ONLY",
+  "world_acceptance_status": "NOT_APPLICABLE_SYNTHETIC_FIXTURE"
+}

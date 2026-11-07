@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-07",
+  "scope": "Relocated standalone assets; no source game input or network used. This is not world/GPU/Android/driving acceptance.",
+  "versions": {
+    "blender": "4.3.2",
+    "godot": "4.6.3.stable.official.7d41c59c4"
+  },
+  "portability_tests": {
+    "passed": 3,
+    "source_copy": "complete skill copied outside its historical workspace",
+    "input_dependencies": "Only bundled source/template/vehicle fixture plus explicit installed Blender and Godot"
+  },
+  "samples": {
+    "buildings": {
+      "models": 8,
+      "glb": {
+        "passed": true,
+        "checks": 217,
+        "failures": []
+      },
+      "godot": {
+        "passed": true,
+        "checks": 15613,
+        "failures": [],
+        "load_unload_cycles": 40,
+        "material_identities": 7
+      },
+      "model_sha256": {
+        "house_a_single_lod0": "47867c23de5cd414da664ec800e707975039517c30cf63a80c7e813a309ca9e0",
+        "house_a_single_lod1": "d17541db7e3543faa45babd8ebfffea59fd1c2502b823f16b4ea4431f612b92c",
+        "house_b_two_floor_lod0": "1d69275cdd36c119045829d7e275f54b3e2e2822a0ab4049f7b76ece8a4c7d0f",
+        "house_b_two_floor_lod1": "b288b60a198745691d6734f163f8bd5a141d5d86c9bba0987646b8662a4541c6",
+        "house_c_timber_lod0": "5998f16b3848798a3a69817b1c4421d732f4451f4efe10bc26d6c9913937ce63",
+        "house_c_timber_lod1": "84549de545baaef95212179f4d19ca3679f8041b3ef1aa90a8fd760b5ffe4bca",
+        "convenience_store_lod0": "b738cd57f5512b8f675a8015aab67800de8cd332a16664b41b16503bd4e279d9",
+        "convenience_store_lod1": "2344dd7fa659487a255880e054ad982965862b9a8d57fa553392b6538745d5d6"
+      }
+    },
+    "hotel": {
+      "models": 4,
+      "glb": {
+        "passed": true,
+        "checks": 120,
+        "failures": []
+      },
+      "godot": {
+        "passed": true,
+        "checks": 45126,
+        "failures": [],
+        "load_unload_cycles": 40,
+        "material_identities": 8
+      },
+      "model_sha256": {
+        "hotel_building_lod0": "5ddac5c97dc215327638a6d8f098005ef6815bd744d3000ca6b84664db6a3da7",
+        "hotel_building_lod1": "45af0fbf4b2acc4cf9809e68fe4a40fed84eb596bb39e8a8c6129be129af355e",
+        "hotel_compound_lod0": "80a9165b7e930610c9baf8e47a0970858d36d725d441f999f766d1894d33c8f7",
+        "hotel_compound_lod1": "09f1b7610ab092248b2ad92c23017959eb9ed1b33aacf0c649168ef056e2c0a0"
+      }
+    }
+  },
+  "render": {
+    "status": "PASS_FILE_GENERATION_ONLY",
+    "renderer": "Blender Cycles CPU; not Godot/game screenshot",
+    "buildings_png_count": 5,
+    "hotel_png_count": 2,
+    "visual_spot_checks": [
+      "01_buildings_day.png",
+      "hotel_roadside_vehicle_scale.png"
+    ],
+    "limitations": [
+      "Hotel preview has coarse conceptual forest placeholders and occlusion/dark near-camera silhouettes; not final scene-art acceptance.",
+      "No game terrain, physical driving, Android or Godot GPU test."
+    ],
+    "outputs": {
+      "buildings": {
+        "05_buildings_lod1.png": "e00e630052824ce89d9c2e8fb4a1721fc94d7a0c87a35240e3787e87d1956432",
+        "04_store_service_rear.png": "d111b8b75d7b56514c0ccf66c4fc5c08244f547e2cb7634a0b5b80fcc7cf18fa",
+        "03_store_front_snow.png": "7c82619466df18d883c2509156d35c598413051df90c1b0c75b83811d8d43a69",
+        "02_buildings_snow.png": "6ef49f0f62cecf07a5ce2f2a9e096facd669639c85f2947cd59de5ab0edd0af7",
+        "01_buildings_day.png": "51cf5613e55a0647c7afabc0661472adc6f423f973a47fa4d39cc80b60a24498"
+      },
+      "hotel": {
+        "hotel_roadside_vehicle_scale.png": "980e864c888c6289fc634fc84f4c278e59df94a1e211d41d4b49164daf550951",
+        "hotel_street_parking_forest_massing.png": "7df843e4f7f485ca951dbc3e2038524a925b3b0ceed22d25803e5819a96b524a"
+      }
+    }
+  },
+  "independent_review": {
+    "dependency_closure": "No missing bundled runtime dependency found",
+    "static_and_portability_tests": "3/3 passed",
+    "scope": "Read-only dependency, entrypoint, documentation and receipt review. No engine run by reviewer."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "generation_id": "synthetic-skill-fixture-v1",
+  "resources": [
+    {
+      "chunk_id": "3:-11",
+      "path": "res://assets/world/fuji_v3/ground_3_-11_asphalt.tscn",
+      "sha256": "a9bde190f5b36ee0e40cbeb83877c541f7cf679c9340cb06e9a2593ccb2c10c1"
+    },
+    {
+      "chunk_id": "3:-10",
+      "path": "res://assets/world/fuji_v3/ground_3_-10_asphalt.tscn",
+      "sha256": "b195218f75f0fa96f9f141d3deef38cf5d46ede4ec176dcaaffca6f919f49aa2"
+    },
+    {
+      "chunk_id": "3:-9",
+      "path": "res://assets/world/fuji_v3/ground_3_-9_asphalt.tscn",
+      "sha256": "64edd93066a05b60f02ee0525b2ae492f9f9b50e27d88c5535f1586da4a8ab5c"
+    },
+    {
+      "chunk_id": "4:-11",
+      "path": "res://assets/world/fuji_v3/ground_4_-11_asphalt.tscn",
+      "sha256": "ea4f478e646ddb606b735dd6794b4bde8f1a31138409e455963ffa7a17be0e90"
+    },
+    {
+      "chunk_id": "4:-10",
+      "path": "res://assets/world/fuji_v3/ground_4_-10_asphalt.tscn",
+      "sha256": "234063b9d3e2b283a6254dce966db82d7f2fe77404adb26e178c49b70363b19a"
+    },
+    {
+      "chunk_id": "4:-9",
+      "path": "res://assets/world/fuji_v3/ground_4_-9_asphalt.tscn",
+      "sha256": "43a4a4b833178ab9a0259a450424b04c27951f07fdfa4e28d726b22421eaf9d6"
+    },
+    {
+      "chunk_id": "3:-11",
+      "path": "res://assets/world/fuji_v3/paddy_lane_3_-11_asphalt.tscn",
+      "sha256": "16d311e5789f3d4b7f5abd2ba823204741fbcdf52694aa28503baaed1a9651ca"
+    },
+    {
+      "chunk_id": "3:-10",
+      "path": "res://assets/world/fuji_v3/paddy_lane_3_-10_asphalt.tscn",
+      "sha256": "bce7f7003cbaf6cb8777c606d08636da0bccd738e5be8e303e7435a1430443ca"
+    },
+    {
+      "chunk_id": "3:-9",
+      "path": "res://assets/world/fuji_v3/paddy_lane_3_-9_asphalt.tscn",
+      "sha256": "0c8d1d9c2e885e2b22fcea7f3134bf337e4969ae560eae3221dcc0e60d26540f"
+    },
+    {
+      "chunk_id": "4:-11",
+      "path": "res://assets/world/fuji_v3/forest_return_4_-11_asphalt.tscn",
+      "sha256": "7572659718e85b5bf3e6c765a6e699d43cda7aafa8af82aaebc105f4deb1b598"
+    },
+    {
+      "chunk_id": "4:-10",
+      "path": "res://assets/world/fuji_v3/forest_return_4_-10_asphalt.tscn",
+      "sha256": "c49ad2ac777f441a96c1bf8f68a10effc782fbcfb6b531c7c088ece7bca7b88d"
+    },
+    {
+      "chunk_id": "4:-9",
+      "path": "res://assets/world/fuji_v3/forest_return_4_-9_asphalt.tscn",
+      "sha256": "fd9f43fcb5b929203f5ca75db12134f0ddaffcc00458fef9bbb886d663ff7920"
+    }
+  ],
+  "triangle_export": {
+    "sha256": "8833d6427560e02f28183fb4dd6512bc4fbed20ee6d3188707b644be39f26ec2"
+  },
+  "validation_status": "SYNTHETIC_FIXTURE_ONLY",
+  "world_acceptance_status": "NOT_APPLICABLE_SYNTHETIC_FIXTURE"
+}

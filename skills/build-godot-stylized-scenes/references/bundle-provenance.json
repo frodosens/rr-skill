@@ -1,0 +1,370 @@
+{
+  "scope": "Self-contained authoring tools and small synthetic fixtures, not a full game or evidence of production acceptance.",
+  "license": "No LICENSE/COPYING found for original project scripts. Original-authoring comments are provenance, not a new open-source license. Preserve notices and confirm rights before redistribution beyond the authorized project. The included font subset retains its SIL OFL notice.",
+  "files": [
+    {
+      "source": "apex-rush-godot/tools/generate_branching_trees.py",
+      "bundled": "scripts/generate_branching_trees.py",
+      "source_sha256": "c7e1bc78ebb3999ffde46445e466385b4780440e74eb3a6501129cc46d850e62",
+      "bundled_sha256": "8cdc9eb2621c305197f0a56d44b90c1c3faa8294701387a221f47e2185222b80",
+      "adapted": true
+    },
+    {
+      "source": "apex-rush-godot/tools/validate_tree_glbs.py",
+      "bundled": "scripts/validate_tree_glbs.py",
+      "source_sha256": "bc93639dfb859c462bf704b488331729eda8fb8b1b7395be6eca109b2b22af27",
+      "bundled_sha256": "4e2c0b1ac55692186e94d068b92cc9f3bad1eb7b6adc952bb0635496896f5ca7",
+      "adapted": true
+    },
+    {
+      "source": "apex-rush-godot/tools/bake_bare_forest_card.py",
+      "bundled": "scripts/bake_bare_forest_card.py",
+      "source_sha256": "a58a141e884bc021e7c71408340eeeebbd81ed79113269c5eac27b225b9f1659",
+      "bundled_sha256": "28cd28100f8b4d890d31306949b4cc80972994f70db96c62d1bc461b5e4da780",
+      "adapted": true
+    },
+    {
+      "source": "forest_pcg009/tools/place_forest009.py",
+      "bundled": "scripts/place_forest009.py",
+      "source_sha256": "3042a76dfb055a0cadf5442c834cdd158acb39d2ae917007acad769673dd6acb",
+      "bundled_sha256": "ace1cc5fb5a9848ec41bffaa8f3fb3883d6214d7a36a2b3d095f7d4f39fb0908",
+      "adapted": true
+    },
+    {
+      "source": "forest_pcg009/tools/safety009.py",
+      "bundled": "scripts/safety009.py",
+      "source_sha256": "4b7c87143c791824adfbae8e8543b0032d1ee4b28aa1237d61a9858133e03286",
+      "bundled_sha256": "7e79126891e2450411eed6e5b83900d33cddd3c4d7e8a5a0bd438236cb79b668",
+      "adapted": true
+    },
+    {
+      "source": "forest_ground011/tools/build_ground_field011.py",
+      "bundled": "scripts/build_ground_field011.py",
+      "source_sha256": "01d4a39044e18e6022bcef5987a7529eaf5cf859cbd991b875e5c1e58b51f4f7",
+      "bundled_sha256": "42dd131e0305045c61df36d7a1ded7c2b4ff96d5dbdb1abd26ef5a414e4efed8",
+      "adapted": true
+    },
+    {
+      "source": "forest_pcg009/output/safety_signs009.otf",
+      "bundled": "assets/fonts/safety_signs009.otf",
+      "source_sha256": "34871e0f98a2768af6db987887beabbe71256724f464f4c3bc9183df51c366a3",
+      "bundled_sha256": "34871e0f98a2768af6db987887beabbe71256724f464f4c3bc9183df51c366a3",
+      "adapted": false
+    },
+    {
+      "source": "forest_pcg009/output/safety_signs009_LICENSE.txt",
+      "bundled": "assets/fonts/safety_signs009_LICENSE.txt",
+      "source_sha256": "a38522e7de5dea3bd0275aefef7a6bd0107cd8e5098996fbe6ab3786d4896429",
+      "bundled_sha256": "a38522e7de5dea3bd0275aefef7a6bd0107cd8e5098996fbe6ab3786d4896429",
+      "adapted": false
+    },
+    {
+      "source": "grass_wind027/project/main.tscn",
+      "bundled": "assets/grass_wind027/project/main.tscn",
+      "source_sha256": "d0377ba39aeb91b7de02bb5821b3c102f264a71937caa13c793032a67b225650",
+      "bundled_sha256": "d0377ba39aeb91b7de02bb5821b3c102f264a71937caa13c793032a67b225650",
+      "adapted": false
+    },
+    {
+      "source": "grass_wind027/project/project.godot",
+      "bundled": "assets/grass_wind027/project/project.godot",
+      "source_sha256": "2fa87d216260c14d54c3d787e9d18a1813433a6e5079904a459bf3b718405f96",
+      "bundled_sha256": "2fa87d216260c14d54c3d787e9d18a1813433a6e5079904a459bf3b718405f96",
+      "adapted": false
+    },
+    {
+      "source": "grass_wind027/project/scripts/demo.gd",
+      "bundled": "assets/grass_wind027/project/scripts/demo.gd",
+      "source_sha256": "e662499ef24f553184388873b6fd4c27703df58e79641513dba342de5d575f9b",
+      "bundled_sha256": "e662499ef24f553184388873b6fd4c27703df58e79641513dba342de5d575f9b",
+      "adapted": false
+    },
+    {
+      "source": "grass_wind027/project/scripts/grass_field.gd",
+      "bundled": "assets/grass_wind027/project/scripts/grass_field.gd",
+      "source_sha256": "34dd6cf19ddf2f84483c4cb5e27306fef3cb32c3d76c0e0d7f61bc52a00bf70c",
+      "bundled_sha256": "34dd6cf19ddf2f84483c4cb5e27306fef3cb32c3d76c0e0d7f61bc52a00bf70c",
+      "adapted": false
+    },
+    {
+      "source": "grass_wind027/project/shaders/grass.gdshader",
+      "bundled": "assets/grass_wind027/project/shaders/grass.gdshader",
+      "source_sha256": "2f5264187ea69df1d473cce8ad50c6068df952c6132add08d8631d5e61b39991",
+      "bundled_sha256": "2f5264187ea69df1d473cce8ad50c6068df952c6132add08d8631d5e61b39991",
+      "adapted": false
+    },
+    {
+      "source": "grass_wind027/project/tools/capture.gd",
+      "bundled": "assets/grass_wind027/project/tools/capture.gd",
+      "source_sha256": "4237799ce0aab3effc236b9cbcf9e571b74c8310d14aaea3028b97b663306ec8",
+      "bundled_sha256": "4237799ce0aab3effc236b9cbcf9e571b74c8310d14aaea3028b97b663306ec8",
+      "adapted": false
+    },
+    {
+      "source": "grass_wind027/project/tools/profile_draw_calls.gd",
+      "bundled": "assets/grass_wind027/project/tools/profile_draw_calls.gd",
+      "source_sha256": "a4d3b0aa90d15cb3ef12de985c3063f88520e2c3a9d1648038af133b57037856",
+      "bundled_sha256": "a4d3b0aa90d15cb3ef12de985c3063f88520e2c3a9d1648038af133b57037856",
+      "adapted": false
+    },
+    {
+      "source": "grass_wind027/project/tools/test_grass.gd",
+      "bundled": "assets/grass_wind027/project/tools/test_grass.gd",
+      "source_sha256": "f8f6900c76f9186cac235106702dc4e9650ad104d070c73a0bbfac9ccb7d8add",
+      "bundled_sha256": "6a49aff13ef844c0ee96e583c34275210cf558d3934acaa8b42c22c0d4665e71",
+      "adapted": true
+    }
+  ],
+  "adaptations": [
+    "Replace historical implicit input/output/vendor paths with explicit CLI arguments and installed dependencies.",
+    "Keep fixed 009/011 scope and source digest checks; generated outputs go to fresh separate directories.",
+    "Use the checked-in renamed OFL font subset instead of a system font path.",
+    "Include tiny deterministic synthetic fixtures, portable runners and tests; do not copy full worlds, large triangle corpora, cached results or old screenshots.",
+    "Tree writes require new/empty external output directories; SVG writes require nonexistent external files and exclusive creation; --check remains read-only. Standard-library regression covers refusal to overwrite, install paths and symlink aliases."
+  ],
+  "package_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "331758f120bfe197be42e9891db87a943740aaee3c5708de675a973914a6309c",
+      "bytes": 5923
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "162c2442ea32ba1ffee0fd2451f94be3fcd91e6c4fe927a73289240891527730",
+      "bytes": 287
+    },
+    {
+      "path": "assets/fixture/fixture_manifest.json",
+      "sha256": "b31821945e85bfd37b0b8e6c3a3228c291fdf420f786b68ead08741b3ff88d1a",
+      "bytes": 406
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/exclusions.json",
+      "sha256": "8b40cf8a82971d9ff4309c63960ec5c76c499c728c72f6d345028212a164f3b1",
+      "bytes": 35
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/forest_return_4_-10_asphalt.tscn",
+      "sha256": "c49ad2ac777f441a96c1bf8f68a10effc782fbcfb6b531c7c088ece7bca7b88d",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/forest_return_4_-11_asphalt.tscn",
+      "sha256": "7572659718e85b5bf3e6c765a6e699d43cda7aafa8af82aaebc105f4deb1b598",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/forest_return_4_-9_asphalt.tscn",
+      "sha256": "fd9f43fcb5b929203f5ca75db12134f0ddaffcc00458fef9bbb886d663ff7920",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/ground_3_-10_asphalt.tscn",
+      "sha256": "b195218f75f0fa96f9f141d3deef38cf5d46ede4ec176dcaaffca6f919f49aa2",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/ground_3_-11_asphalt.tscn",
+      "sha256": "a9bde190f5b36ee0e40cbeb83877c541f7cf679c9340cb06e9a2593ccb2c10c1",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/ground_3_-9_asphalt.tscn",
+      "sha256": "64edd93066a05b60f02ee0525b2ae492f9f9b50e27d88c5535f1586da4a8ab5c",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/ground_4_-10_asphalt.tscn",
+      "sha256": "234063b9d3e2b283a6254dce966db82d7f2fe77404adb26e178c49b70363b19a",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/ground_4_-11_asphalt.tscn",
+      "sha256": "ea4f478e646ddb606b735dd6794b4bde8f1a31138409e455963ffa7a17be0e90",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/ground_4_-9_asphalt.tscn",
+      "sha256": "43a4a4b833178ab9a0259a450424b04c27951f07fdfa4e28d726b22421eaf9d6",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/layout_values.json",
+      "sha256": "acc369c704d215a0467a5e3991e8eb3e310c34aeb9e7b6b45e4a1e174d710d8d",
+      "bytes": 631
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/paddy_lane_3_-10_asphalt.tscn",
+      "sha256": "bce7f7003cbaf6cb8777c606d08636da0bccd738e5be8e303e7435a1430443ca",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/paddy_lane_3_-11_asphalt.tscn",
+      "sha256": "16d311e5789f3d4b7f5abd2ba823204741fbcdf52694aa28503baaed1a9651ca",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/paddy_lane_3_-9_asphalt.tscn",
+      "sha256": "0c8d1d9c2e885e2b22fcea7f3134bf337e4969ae560eae3221dcc0e60d26540f",
+      "bytes": 472
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/surface_catalog.json",
+      "sha256": "efb608825b69395d511c71235c99109b2fe7fc810065f857350cfd013186621c",
+      "bytes": 2637
+    },
+    {
+      "path": "assets/fixture/surface_triangles.jsonl",
+      "sha256": "8833d6427560e02f28183fb4dd6512bc4fbed20ee6d3188707b644be39f26ec2",
+      "bytes": 10280
+    },
+    {
+      "path": "assets/fonts/safety_signs009.otf",
+      "sha256": "34871e0f98a2768af6db987887beabbe71256724f464f4c3bc9183df51c366a3",
+      "bytes": 27712
+    },
+    {
+      "path": "assets/fonts/safety_signs009_LICENSE.txt",
+      "sha256": "a38522e7de5dea3bd0275aefef7a6bd0107cd8e5098996fbe6ab3786d4896429",
+      "bytes": 4369
+    },
+    {
+      "path": "assets/grass_wind027/project/main.tscn",
+      "sha256": "d0377ba39aeb91b7de02bb5821b3c102f264a71937caa13c793032a67b225650",
+      "bytes": 165
+    },
+    {
+      "path": "assets/grass_wind027/project/project.godot",
+      "sha256": "2fa87d216260c14d54c3d787e9d18a1813433a6e5079904a459bf3b718405f96",
+      "bytes": 533
+    },
+    {
+      "path": "assets/grass_wind027/project/scripts/demo.gd",
+      "sha256": "e662499ef24f553184388873b6fd4c27703df58e79641513dba342de5d575f9b",
+      "bytes": 6101
+    },
+    {
+      "path": "assets/grass_wind027/project/scripts/grass_field.gd",
+      "sha256": "34dd6cf19ddf2f84483c4cb5e27306fef3cb32c3d76c0e0d7f61bc52a00bf70c",
+      "bytes": 7862
+    },
+    {
+      "path": "assets/grass_wind027/project/shaders/grass.gdshader",
+      "sha256": "2f5264187ea69df1d473cce8ad50c6068df952c6132add08d8631d5e61b39991",
+      "bytes": 2317
+    },
+    {
+      "path": "assets/grass_wind027/project/tools/capture.gd",
+      "sha256": "4237799ce0aab3effc236b9cbcf9e571b74c8310d14aaea3028b97b663306ec8",
+      "bytes": 5013
+    },
+    {
+      "path": "assets/grass_wind027/project/tools/profile_draw_calls.gd",
+      "sha256": "a4d3b0aa90d15cb3ef12de985c3063f88520e2c3a9d1648038af133b57037856",
+      "bytes": 4437
+    },
+    {
+      "path": "assets/grass_wind027/project/tools/test_grass.gd",
+      "sha256": "6a49aff13ef844c0ee96e583c34275210cf558d3934acaa8b42c22c0d4665e71",
+      "bytes": 4131
+    },
+    {
+      "path": "references/dense-vegetation.md",
+      "sha256": "9670cd78a3412d3cd1cc14fbd44fa9cbc0cde072238afbfba0edcfc7d825b58e",
+      "bytes": 6978
+    },
+    {
+      "path": "references/offline-assets.md",
+      "sha256": "6d487eb6ae837a6ecb40daa51b96a0d1368be205f3be1c9c5134a4a2fd2f9394",
+      "bytes": 3954
+    },
+    {
+      "path": "references/pcg-integration.md",
+      "sha256": "44070c70725c00f16774f0b23fad53232169a067a4825440c82b96f87dea04f9",
+      "bytes": 4324
+    },
+    {
+      "path": "references/portable-tools.md",
+      "sha256": "eccd0acec5cefa9e6f0860c5880c52afa57c28c0ddebf3587c996a50a905be11",
+      "bytes": 6765
+    },
+    {
+      "path": "references/project-map.md",
+      "sha256": "1276dfc992a9185cd616908a1fee8f924a963740ea1f92a567519de5854520ad",
+      "bytes": 4672
+    },
+    {
+      "path": "references/validation.md",
+      "sha256": "eb8add6344fcb9a4c33976b0a616f4d2f3184bf876db92374b3efea57dff0272",
+      "bytes": 5146
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "76783f7cfe2afdbe3cd38298e1d2c999a03b4e85d43c89d8fb6443ff71a9f063",
+      "bytes": 232
+    },
+    {
+      "path": "scripts/bake_bare_forest_card.py",
+      "sha256": "28cd28100f8b4d890d31306949b4cc80972994f70db96c62d1bc461b5e4da780",
+      "bytes": 2066
+    },
+    {
+      "path": "scripts/build_ground_field011.py",
+      "sha256": "42dd131e0305045c61df36d7a1ded7c2b4ff96d5dbdb1abd26ef5a414e4efed8",
+      "bytes": 4147
+    },
+    {
+      "path": "scripts/bundle_paths.py",
+      "sha256": "186a76dcf6dcbe4271948a56abc7000f9b09e81d99060777e933777cceb46d4a",
+      "bytes": 1367
+    },
+    {
+      "path": "scripts/generate_branching_trees.py",
+      "sha256": "8cdc9eb2621c305197f0a56d44b90c1c3faa8294701387a221f47e2185222b80",
+      "bytes": 27278
+    },
+    {
+      "path": "scripts/make_fixture.py",
+      "sha256": "44624a43b4944ea487e9a8388a70dff3a5ab84614182e084688ded8ac77d2e08",
+      "bytes": 3852
+    },
+    {
+      "path": "scripts/place_forest009.py",
+      "sha256": "ace1cc5fb5a9848ec41bffaa8f3fb3883d6214d7a36a2b3d095f7d4f39fb0908",
+      "bytes": 7462
+    },
+    {
+      "path": "scripts/prepare_grass_sample.py",
+      "sha256": "dc2eb816a5eea1f5a767d15952564bbeb65db39b8f549ab58a7a8ee368445ef9",
+      "bytes": 498
+    },
+    {
+      "path": "scripts/safety009.py",
+      "sha256": "7e79126891e2450411eed6e5b83900d33cddd3c4d7e8a5a0bd438236cb79b668",
+      "bytes": 20735
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "sha256": "aec40926c4faff0cf5081da5dad3d88376f178ab7f0c52989861f1a47e56313e",
+      "bytes": 5551
+    },
+    {
+      "path": "scripts/test_output_guards.py",
+      "sha256": "36efac2c3fbdfa26342826585a0fe8571a314eb7a47fe7d60f50fcacbd6571d6",
+      "bytes": 3801
+    },
+    {
+      "path": "scripts/validate_tree_glbs.py",
+      "sha256": "4e2c0b1ac55692186e94d068b92cc9f3bad1eb7b6adc952bb0635496896f5ca7",
+      "bytes": 3875
+    }
+  ],
+  "source_identity": {
+    "apex-rush-godot": {
+      "verified_origin": "https://github.com/frodosens/RallyDelivery.git",
+      "head": "7870e454be4b7e15ea2b8f598f0088e72050f41a",
+      "note": "Working tree may differ from HEAD; copied bytes are identified by per-file hashes."
+    },
+    "other_sources": "Historical workspace directories only; no repository identity inferred."
+  }
+}

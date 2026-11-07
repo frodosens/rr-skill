@@ -1,0 +1,211 @@
+{
+  "scope": "Self-contained authoring tools and small synthetic fixtures, not a full game or evidence of production acceptance.",
+  "license": "No LICENSE/COPYING found for original project scripts. Original-authoring comments are provenance, not a new open-source license. Preserve notices and confirm rights before redistribution beyond the authorized project.",
+  "files": [
+    {
+      "source": "road_markings016/tools/generate_markings016.py",
+      "bundled": "scripts/generate_markings016.py",
+      "source_sha256": "e13c99fa3602dc94f82efd461f6622ce828f4f77a544080e4a9494869912916b",
+      "bundled_sha256": "8a25328703654cbe3870fe82707424ba6a4eb2488c45b8a42ba8c1b959dec883",
+      "adapted": true
+    },
+    {
+      "source": "road_markings016/tools/audit_geometry016.py",
+      "bundled": "scripts/audit_geometry016.py",
+      "source_sha256": "2f3aa8bb3d79eb7b0b9b350f3bb7d1e967e402ba0ec7f085ee72a14750e59c5c",
+      "bundled_sha256": "deb6dce31bf884306166c0c9118a93e977cbcb2970d1e1ad3ed355f677a306ab",
+      "adapted": true
+    },
+    {
+      "source": "road_markings016/inputs/marking_rules016.json",
+      "bundled": "assets/historical/marking_rules016.json",
+      "source_sha256": "f6e41d7b618df52b3811b87939603a28cc43bf28898156b32068297356425360",
+      "bundled_sha256": "f6e41d7b618df52b3811b87939603a28cc43bf28898156b32068297356425360",
+      "adapted": false
+    },
+    {
+      "source": "fuji_v3_residential_roads006/world_candidate/scripts/residential_road_generator.gd",
+      "bundled": "assets/residential006/project/scripts/residential_road_generator.gd",
+      "source_sha256": "cf43cf34f3f9b3bd90fcde08ee33bd6158488b17be95ae47bee40753f116c55b",
+      "bundled_sha256": "cf43cf34f3f9b3bd90fcde08ee33bd6158488b17be95ae47bee40753f116c55b",
+      "adapted": false
+    },
+    {
+      "source": "fuji_v3_residential_roads006/prototype/scripts/demo_config.gd",
+      "bundled": "assets/residential006/project/scripts/demo_config.gd",
+      "source_sha256": "43763c9b5e76d2677f3fa7997e1137c4a8c0002786b54864f646d2df93790298",
+      "bundled_sha256": "43763c9b5e76d2677f3fa7997e1137c4a8c0002786b54864f646d2df93790298",
+      "adapted": false
+    }
+  ],
+  "adaptations": [
+    "Require explicit source/rules/triangle/output paths; installed Shapely instead of sibling vendor lookup.",
+    "Fresh separate output directory guard; independent auditor takes the generated bundle path.",
+    "Bundle only native residential generator and small configuration/test; main-world marking adapters, weather assets and bake/seal/publish flow remain explicit caller requirements."
+  ],
+  "package_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "262c947ec802cd956401f9d6c1a5c1823f81cf728dc7a9085fb1d52cd030050c",
+      "bytes": 8003
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "e3aecc0233a1e1a44116f13675d7a052c36e818fc67d3f8340a4ee4391ad035f",
+      "bytes": 457
+    },
+    {
+      "path": "assets/fixture/fixture_manifest.json",
+      "sha256": "1758652a0c1da184adca3d71c9c1740570b4703a35dd4e4f622e988cfadbddd8",
+      "bytes": 405
+    },
+    {
+      "path": "assets/fixture/marking_rules016.json",
+      "sha256": "2a1964248e2f65d8d59f87a5b1b6253c282cb995be3947638cf076565cf77817",
+      "bytes": 1030
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/exclusions.json",
+      "sha256": "8b40cf8a82971d9ff4309c63960ec5c76c499c728c72f6d345028212a164f3b1",
+      "bytes": 35
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/fixture_road_0_0_asphalt.tscn",
+      "sha256": "c1fbd9759fb031becc6bdf21f25757469f79b054c6fb23be3f524002502b1129",
+      "bytes": 468
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/fixture_road_1_0_asphalt.tscn",
+      "sha256": "52d135843fc914c380f48598d5c895b612efabf5c79798502d070e626098d7fb",
+      "bytes": 469
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/fixture_road_2_0_asphalt.tscn",
+      "sha256": "4e588008df74a8531c213e9f0cecc614e5ca680375059e23c4547b9fce7efab3",
+      "bytes": 469
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/junction_fixture_0_0_asphalt.tscn",
+      "sha256": "a5a16af3ab75cd5bac96e5162fa0b7b0fd9a5307a6e93e0003f104fce82e0b49",
+      "bytes": 463
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/layout_values.json",
+      "sha256": "0e3274896a50986bde446182410123c35d2a0453a257a5391d91037d4619a376",
+      "bytes": 351
+    },
+    {
+      "path": "assets/fixture/project/assets/world/fuji_v3/surface_catalog.json",
+      "sha256": "b95c5a82504586344d2469c55f917c370e66f3cb2727b95e80d8ccfada2576a4",
+      "bytes": 1080
+    },
+    {
+      "path": "assets/fixture/surface_triangles.jsonl",
+      "sha256": "c5c1a5b0192863e577359a80c7c5b9d7eebe7da48db90db77f75503434b4565d",
+      "bytes": 3397
+    },
+    {
+      "path": "assets/historical/marking_rules016.json",
+      "sha256": "f6e41d7b618df52b3811b87939603a28cc43bf28898156b32068297356425360",
+      "bytes": 2447
+    },
+    {
+      "path": "assets/icon.svg",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738
+    },
+    {
+      "path": "assets/residential006/project/project.godot",
+      "sha256": "8c1254bca6854fa1a1313166937dfa4a15558777b906c76151a5afbff38e4e35",
+      "bytes": 137
+    },
+    {
+      "path": "assets/residential006/project/scripts/demo_config.gd",
+      "sha256": "43763c9b5e76d2677f3fa7997e1137c4a8c0002786b54864f646d2df93790298",
+      "bytes": 815
+    },
+    {
+      "path": "assets/residential006/project/scripts/residential_road_generator.gd",
+      "sha256": "cf43cf34f3f9b3bd90fcde08ee33bd6158488b17be95ae47bee40753f116c55b",
+      "bytes": 11329
+    },
+    {
+      "path": "assets/residential006/project/scripts/test_residential.gd",
+      "sha256": "57a5afe2ab4ecc09202497e09bdf48a361c293ee11c239332541f2cae686fcbd",
+      "bytes": 2220
+    },
+    {
+      "path": "references/geometry-and-streaming.md",
+      "sha256": "e34566e914227899e0f9a80233427e9074e80a8cdaa3e08c17b55d4f6130fa0f",
+      "bytes": 3606
+    },
+    {
+      "path": "references/portable-tools.md",
+      "sha256": "2c18722dc09647aa3e8852773e048bd6e4d6742837560536da88ceb66efc3356",
+      "bytes": 4396
+    },
+    {
+      "path": "references/project-evidence.md",
+      "sha256": "657ebc05b5433cf2c6cdf6b2a3e831ac208d04e4b73d81b6774268bd4bdc638b",
+      "bytes": 5181
+    },
+    {
+      "path": "references/traffic-and-lettering.md",
+      "sha256": "7f3fef54935dd2090729ac55a2b9a54260cae9814bbcba3241045cb8dc6e4ac2",
+      "bytes": 4986
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "c90dfc7041512d0a99a03d7a09815d02c807c4d5b34d32f176d750858700e8ee",
+      "bytes": 3073
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "12e48a8a07369d146046971aa7871e0c6fe435808d9324602aa2d1668f945d11",
+      "bytes": 153
+    },
+    {
+      "path": "scripts/audit_geometry016.py",
+      "sha256": "deb6dce31bf884306166c0c9118a93e977cbcb2970d1e1ad3ed355f677a306ab",
+      "bytes": 3618
+    },
+    {
+      "path": "scripts/bundle_paths.py",
+      "sha256": "9b8e15243d39515752b5428854439dd8ad2279ab702dd06329d60f6abec557d2",
+      "bytes": 673
+    },
+    {
+      "path": "scripts/check_conventions.py",
+      "sha256": "d2a7f0da61bb13f64a41e8874eaad6b05e725497db459617fa462e3ef04f5613",
+      "bytes": 6330
+    },
+    {
+      "path": "scripts/generate_markings016.py",
+      "sha256": "8a25328703654cbe3870fe82707424ba6a4eb2488c45b8a42ba8c1b959dec883",
+      "bytes": 11952
+    },
+    {
+      "path": "scripts/make_fixture.py",
+      "sha256": "6e8d48aa7b42f5bbc74247a96447d5c57831c9a3429b6cf31ed2943e7e8bd63a",
+      "bytes": 4426
+    },
+    {
+      "path": "scripts/prepare_residential_sample.py",
+      "sha256": "a61e7593dd17edd1edc0748f1ef8701a00dfa92c81b37d80f70fc08b8c07f99b",
+      "bytes": 500
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "sha256": "c8f651ff1f80eb39fffe99a14b93ded2f1cc8a273b2cf9c597f22549cb336143",
+      "bytes": 3787
+    }
+  ],
+  "source_identity": {
+    "apex-rush-godot": {
+      "verified_origin": "https://github.com/frodosens/RallyDelivery.git",
+      "head": "7870e454be4b7e15ea2b8f598f0088e72050f41a",
+      "note": "Working tree may differ from HEAD; copied bytes are identified by per-file hashes."
+    },
+    "other_sources": "Historical workspace directories only; no repository identity inferred."
+  }
+}

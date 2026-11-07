@@ -1,0 +1,8 @@
+{
+  "layout_sha256": "0e3274896a50986bde446182410123c35d2a0453a257a5391d91037d4619a376",
+  "scope": "Tiny flat synthetic fixture. Not the G007 world, not independent source review, native road driving or GPU/phone proof.",
+  "source_generation": "synthetic-skill-fixture-v1",
+  "synthetic": true,
+  "triangle_sha256": "c5c1a5b0192863e577359a80c7c5b9d7eebe7da48db90db77f75503434b4565d",
+  "triangles": 8
+}
